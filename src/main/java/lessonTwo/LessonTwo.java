@@ -2,17 +2,22 @@ package lessonTwo;
 
 public class LessonTwo {
     public static void main(String[] args) {
-        checkSum(15, 20);
+        System.out.println(checkSumBetweenTenAndTwenty(15, 20));
+        System.out.println(checkSumBetweenTenAndTwenty(15, 5));
         isNumberPositive(-20);
-        checkNumber(2);
+        isNumberPositive(22);
+        System.out.println(checkNumber(2));
+        System.out.println(checkNumber(0));
+        System.out.println(checkNumber(-2));
         printString("qwerty", 5);
         isYearLeap(1600);
+        isYearLeap(1601);
+        isYearLeap(1604);
 
     }
 
-    public static boolean checkSum (int a, int b) {
-       if ( (a+b) >= 10 && (a+b) <=20 ) return true;
-        else return false;
+    public static boolean checkSumBetweenTenAndTwenty(int a, int b) {
+        return a + b >= 10 && a + b <= 20;
     }
 
     public static void isNumberPositive (int a) {
@@ -25,8 +30,7 @@ public class LessonTwo {
     }
 
     public static boolean checkNumber (int a) {
-        if (a>=0) return true;
-        else return false;
+        return a >= 0;
     }
 
     public static void printString (String str, int a) {
@@ -37,11 +41,11 @@ public class LessonTwo {
     }
 
     public static void isYearLeap (int a) {
-        if ((a%4) == 0 && (a%100) != 0) {
+        if (a%4 == 0 && a%100 != 0) {
         System.out.println("The year "+ a + " is leap");
         } else {
             System.out.println("The year "+ a + " is not leap");
-        };
+        }
     }
 
 }
