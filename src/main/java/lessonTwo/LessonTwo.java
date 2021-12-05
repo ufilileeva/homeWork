@@ -11,7 +11,7 @@ public class LessonTwo {
         System.out.println(checkNumber(-2));
         printString("qwerty", 5);
         isYearLeap(1600);
-        isYearLeap(1601);
+        isYearLeap(1603);
         isYearLeap(1604);
 
     }
