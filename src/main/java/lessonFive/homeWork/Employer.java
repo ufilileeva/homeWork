@@ -1,4 +1,4 @@
-package lessonFive;
+package lessonFive.homeWork;
 
 public class Employer {
     private String fullName;
@@ -17,5 +17,19 @@ public class Employer {
         this.age = age;
     }
 
+    @Override
+    public String toString() {
+        return "Employer{" +
+                "fullName='" + fullName + '\'' +
+                ", position='" + position + '\'' +
+                ", email='" + email + '\'' +
+                ", phone='" + phone + '\'' +
+                ", salary=" + salary +
+                ", age=" + age +
+                '}';
+    }
 
+    /*public static void printInfo(){
+        System.out.println(String);
+    }*/
 }
