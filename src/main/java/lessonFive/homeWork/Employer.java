@@ -19,17 +19,14 @@ public class Employer {
 
     @Override
     public String toString() {
-        return "Employer{" +
-                "fullName='" + fullName + '\'' +
-                ", position='" + position + '\'' +
-                ", email='" + email + '\'' +
-                ", phone='" + phone + '\'' +
-                ", salary=" + salary +
-                ", age=" + age +
-                '}';
+        return String.format("Сотрудник %s (возраст: %d, почта: %s, телефон: %s) занимает должность %s с окладом %d.", fullName, age, email, phone, position, salary);
     }
 
-    /*public static void printInfo(){
-        System.out.println(String);
-    }*/
+    public void printInfo(){
+        System.out.println(this);
+    }
+
+    public int getAge() {
+        return age;
+    }
 }
