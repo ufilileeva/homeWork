@@ -10,12 +10,12 @@ public class LessonFive {
 
         System.out.println("Кол-во всех игроков: " + Player.getPlayersCount());
 
-        //player1.printInfo();
-        //player2.printInfo();
-        //player3.printInfo();
+        /*player1.printInfo();
+        player2.printInfo();
+        player3.printInfo();
 
-        //Player[] players = new Player[3];
-        /*Player[] players = {player1, player2, player3};
+        Player[] players = new Player[3];
+        Player[] players = {player1, player2, player3};
 
         for(Player player : players) {
             player.printInfo();
