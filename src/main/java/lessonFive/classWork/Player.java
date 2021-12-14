@@ -1,7 +1,5 @@
 package lessonFive.classWork;
 
-import java.util.Locale;
-
 public class Player {
 
     private static int playersCount = 0;
@@ -41,10 +39,6 @@ public class Player {
         return nickname;
     }
 
-    public void setNickname(String nickname) {
-        this.nickname = nickname;
-    }
-
     public int getPoints() {
         return points;
     }
@@ -60,15 +54,8 @@ public class Player {
         return level;
     }
 
-    public void setLevel(int level) {
-        this.level = level;
-    }
-
     public int getMoney() {
         return money;
     }
 
-    public void setMoney(int money) {
-        this.money = money;
-    }
 }
