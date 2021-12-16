@@ -13,7 +13,6 @@ public class LessonTwo {
         isYearLeap(1600);
         isYearLeap(1603);
         isYearLeap(1604);
-
     }
 
     public static boolean checkSumBetweenTenAndTwenty(int a, int b) {
