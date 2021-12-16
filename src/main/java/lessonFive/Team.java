@@ -1,6 +1,4 @@
-package lessonFive.classWork;
-
-import java.util.Arrays;
+package lessonFive;
 
 public class Team {
     private static final int DEFAULT_MAX_PLAYERS = 10;
