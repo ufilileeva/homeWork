@@ -1,7 +1,4 @@
-package lessonSix.classWork;
-
-import java.util.Random;
-import java.util.Scanner;
+package lessonSix;
 
 public class LessonSix {
     public static void main(String[] args) {

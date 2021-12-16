@@ -1,4 +1,4 @@
-package lessonSix.classWork;
+package lessonSix;
 
 public abstract class Player {
     private String nickname;

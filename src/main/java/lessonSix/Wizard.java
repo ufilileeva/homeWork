@@ -1,6 +1,4 @@
-package lessonSix.classWork;
-
-import lessonSix.classWork.Player;
+package lessonSix;
 
 public class Wizard extends Player {
     public Wizard(String nickname, int point) {

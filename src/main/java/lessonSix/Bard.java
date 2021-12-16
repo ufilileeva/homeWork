@@ -1,4 +1,4 @@
-package lessonSix.classWork;
+package lessonSix;
 
 public class Bard extends Player {
     public Bard(String nickname, int point) {

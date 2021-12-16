@@ -1,4 +1,4 @@
-package lessonSix.classWork;
+package lessonSix;
 
 public class Knight extends Player {
 
